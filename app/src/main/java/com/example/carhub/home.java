@@ -16,7 +16,6 @@ public class home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        // Initializing buttons
         Button homeButton = findViewById(R.id.homeButton);
         Button profileButton = findViewById(R.id.profileButton);
         Button button = findViewById(R.id.browseCarsButton);
