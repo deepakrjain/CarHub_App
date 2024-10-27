@@ -9,18 +9,18 @@ CarHub Rentals is a mobile application designed to facilitate easy car rentals, 
 - **Layout & UI:** Android SDK, Constraint Layout, Card View
 
 ## Features
-- **User Authentication**:
-  - Register, login, and logout using Firebase Authentication.
-- **Browse Cars**:
-  - View a wide selection of cars, including details like fuel type, transmission, mileage, and pricing.
-- **Booking System**:
-  - Book a car with a calculated price based on rental dates.
-  - Real-time booking confirmation message.
-- **Order History & Management**:
-  - Track past orders stored in SQLite for offline access.
-  - Option to cancel bookings with confirmation prompts.
-- **UI Navigation**:
-  - Bottom navigation bar for quick access between Home and Profile sections.
+1. **User Authentication**:
+- Register, login, and logout using Firebase Authentication.
+2. **Browse Cars**:
+- View a wide selection of cars, including details like fuel type, transmission, mileage, and pricing.
+3. **Booking System**:
+- Book a car with a calculated price based on rental dates.
+- Real-time booking confirmation message.
+4. **Order History & Management**:
+- Track past orders stored in SQLite for offline access.
+- Option to cancel bookings with confirmation prompts.
+5. **UI Navigation**:
+- Bottom navigation bar for quick access between Home and Profile sections.
   
 ## Installation
 1. **Clone the Repository**:
@@ -28,24 +28,25 @@ CarHub Rentals is a mobile application designed to facilitate easy car rentals, 
    git clone https://github.com/yourusername/CarHub.git
    cd CarHub
 2. **Open in Android Studio**:
-   - Open Android Studio, go to File > Open, and select the cloned project.
+- Open Android Studio, go to File > Open, and select the cloned project.
 3. **Set Up Firebase**:
-   - Configure Firebase for authentication and database functionalities.
-   - Add google-services.json (downloaded from the Firebase Console) to the app/ directory.
+- Configure Firebase for authentication and database functionalities.
+- Add google-services.json (downloaded from the Firebase Console) to the app/ directory.
 4. **Build the Project**:
-   - Sync Gradle and build the project in Android Studio.
+- Sync Gradle and build the project in Android Studio.
 5. **Database Setup**:
-   - The SQLite database for order history is created automatically within the app.
+- The SQLite database for order history is created automatically within the app.
 
 ## Usage
 1. **User Registration and Login**:
-   - New users can register or log in with existing credentials.
+- New users can register or log in with existing credentials.
 2. **Browse Cars**:
-   - View available cars on the Home page by selecting "Browse Cars".
+- View available cars on the Home page by selecting "Browse Cars".
 3. **Book a Car**:
-   - Choose a car, specify rental dates, and confirm booking with calculated costs.
+- Choose a car, specify rental dates, and confirm booking with calculated costs.
 4. **View Orders**:
-   - Go to the Profile section to view and manage past bookings.
+- Go to the Profile section to view and manage past bookings.
 5. **Cancel Order**:
-   - Cancel any booking from the order history with a confirmation prompt.
+- Cancel any booking from the order history with a confirmation prompt.
+
 ##License
