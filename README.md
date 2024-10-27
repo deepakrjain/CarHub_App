@@ -50,3 +50,4 @@ CarHub Rentals is a mobile application designed to facilitate easy car rentals, 
    - Cancel any booking from the order history with a confirmation prompt.
 
 ##License
+This project is licensed under the MIT License. See LICENSE for more information.
