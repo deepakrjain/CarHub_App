@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".home">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="110dp"
+        android:text="Available Cars" />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="706dp"
+        android:layout_below="@id/tv"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="100dp"
+        android:dividerHeight="10dp" />
+
+    <LinearLayout
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/homeButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/white"
+            android:drawableTop="@drawable/baseline_home_24"
+            android:drawablePadding="8dp"
+            android:minWidth="0dp"
+            android:padding="10dp"
+            android:text="Home"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/profileButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/white"
+            android:drawableTop="@drawable/baseline_account_circle_24"
+            android:drawablePadding="8dp"
+            android:minWidth="0dp"
+            android:padding="10dp"
+            android:text="Profile"
+            android:textColor="@color/black" />
+    </LinearLayout>
+</RelativeLayout>

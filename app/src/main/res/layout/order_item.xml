@@ -1,0 +1,92 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    android:elevation="4dp"
+    android:padding="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+
+        <!-- Car Name -->
+        <TextView
+            android:id="@+id/carNameView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Car Name"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- From Date -->
+        <TextView
+            android:id="@+id/fromDateView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="From Date"
+            android:textSize="20sp"
+            android:layout_marginBottom="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/carNameView" />
+
+        <!-- To Date -->
+        <TextView
+            android:id="@+id/toDateView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="To Date"
+            android:textSize="20sp"
+            android:layout_marginBottom="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fromDateView" />
+
+        <!-- Bill Amount -->
+        <TextView
+            android:id="@+id/billAmountView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Bill Amount"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toDateView" />
+
+        <!-- Cancel Order Button -->
+        <Button
+            android:id="@+id/cancelOrderButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="128dp"
+            android:backgroundTint="@color/red"
+            android:padding="10dp"
+            android:text="Cancel Booking"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/billAmountView"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="139dp"
+            android:layout_height="114dp"
+            android:layout_marginBottom="72dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
