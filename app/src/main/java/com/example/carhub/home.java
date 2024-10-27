@@ -10,7 +10,6 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class home extends AppCompatActivity {
-//abcd
     @SuppressLint("SuspiciousIndentation")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
